@@ -3,6 +3,11 @@
   "description": "This package allows you to convert any HTML page into a PDF document",
   "version": "1.0.0",
   "author": "Simon Pucheu <simon.pucheu@gmail.com> (https://simonpucheu.github.io)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/SimonPucheu/HTML2PDF.git"
@@ -14,5 +19,8 @@
   "homepage": "https://github.com/SimonPucheu/HTML2PDF",
   "dependencies": {
     "puppeteer": "^21.1.0"
+  },
+  "devDependencies": {
+    "jest": "^27.2.4"
   }
 }
