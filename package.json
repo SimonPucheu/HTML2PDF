@@ -1,7 +1,7 @@
 {
   "name": "HTML2PDF",
   "description": "This package allows you to convert any HTML page into a PDF document",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Simon Pucheu <simon.pucheu@gmail.com> (https://simonpucheu.github.io)",
   "main": "index.js",
   "scripts": {
